@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="challengecss.css">
+    <link rel="stylesheet" href="resp.css">
+    <title class="titulo">Challenge Alura - Encriptador</title>
+</head>
+<body>
+    <header>
+    <h1 class="cabecalho">Encriptador de Textos</h1>
+    </header>
+    <main class="main">
+        <section>
+            <textarea class="input-texto" cols="42" rows="9" spellcheck="false" placeholder=" Digite seu texto..."></textarea>
+            <div>
+                <h6 class="aviso">Apenas letras minúsculas, sem acentos e caracteres especiais.</h6>
+            </div>
+            
+            <div class="botoes">
+                <button class="efeito encriptar" onclick="btnEncriptar()">Criptografia</button>
+                <button class="efeito desencriptar" onclick="btnDesencriptar()">Descriptografar</button>
+            </div>
+    
+        </section>
+
+        <section>
+            <textarea readonly class="mensagem" cols="22" rows="12"></textarea>
+            <div class="botoes">
+                <button class="efeito copiar" onclick="btnCopiar()">Copiar</button>
+            </div>
+        </section>
+    </main>
+        
+      <script src="challengescript.js"></script>
+
+      <footer class="img-rodape" >
+        <p id="autor">©2022 Ricardo Ferreira</p>
+        <a href="https://github.com/ricardoferreira93" target="_blank" rel="noopener noreferrer">
+            <img src="./img/github.svg"></img> 
+            <p>Github</p>
+        </a>
+        <a href="https://www.linkedin.com/in/ricardo-ferreira-075492232/" target="_blank" rel="noopener noreferrer">
+            <img src="./img/linkedin.svg"></img>
+            <p>Linkedin</p>
+        </a>
+
+    </footer>
+    
+</body>
+</html>

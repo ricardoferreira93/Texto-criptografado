@@ -1,0 +1,147 @@
+* {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.cabecalho {
+    color:rgb(36, 184, 243);
+    padding: 20px;
+    text-shadow:rgb(255, 252, 252) -1px -1px;
+    font-size: 50px;
+}
+
+body{
+    background-image:url(./img/criptografia.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    
+}
+
+.main {
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+   
+}
+ 
+.input-texto {
+    margin-top: 90px;
+    opacity: 0.7;
+    border-radius: 10px;
+    width: 800px;
+}
+
+.mensagem {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 140px;
+    background-image: url(./img/lupa4.png);
+    background-repeat: no-repeat;
+    opacity: 0.7;
+    border-radius: 10px;
+    width: 450px;
+}
+
+
+.efeito {
+    border: none;
+    color:rgb(245, 245, 245);
+    font-size: 24px;
+    line-height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.encriptar {
+    background-color: rgb(240, 64, 172);
+    transition: 2s background;
+}
+
+.encriptar:hover {
+    background: rgb(243, 243, 243);
+    color: rgb(240, 64, 172);
+    box-shadow: inset 0 0 0 3px rgb(240, 64, 172);
+    
+}
+
+.desencriptar {
+    margin-left: 30px;
+    background-color: rgb(240, 64, 172);
+    transition: 2s background;
+}
+
+.desencriptar:hover {
+    border-radius: 10px;
+    background: rgb(245, 245, 245);
+    color: rgb(240, 64, 172);
+    box-shadow: inset 0 0 0 3px rgb(240, 64, 172);
+}
+
+.copiar {
+    background-color: rgb(240, 64, 172);
+    margin-top: -20px;
+    margin-left: 24%;
+    border-radius: 10px;
+    transition: 2s background;
+}
+
+.copiar:hover {
+    border-radius: 10px;
+    background: rgb(235, 232, 234);
+    color: rgb(240, 64, 172);
+    box-shadow: inset 0 0 0 3px rgb(240, 64, 172);
+}
+
+.aviso {
+    font-size: 15px;
+    margin-top: -20px;
+    margin-left: 10px;
+    color:white
+}
+
+.img-rodape {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    background-color: rgb(101, 157, 231);
+    padding: 10px 0px 0px;
+}
+
+footer a {
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+footer p {
+    margin-top: -5px;
+    color:rgb(0, 1, 80);
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+#autor {
+    color: rgb(91, 192, 223);
+    width: 700px;
+    position: absolute;
+    padding: 0px;
+    font-family: 'Inter';
+    font-size: 12px;
+    text-align: center;
+    color:rgb(0, 1, 80);
+    font-weight: bold;
+}
